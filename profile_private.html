@@ -29,28 +29,13 @@
 
                 <!-- Quick Links -->
                 <ul class="hidden md:block md:flex space-x-4 items-center">
-                    <li><a href="#" class="text-white font-medium flex gap-2 items-center"><svg
+                    <li><a href="home.html" class="text-white font-medium flex gap-2 items-center"><svg
                                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                                 stroke="currentColor" class="md:size-5 size-6">
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
                             </svg>
                             <span class="hidden lg:block">Home</span></a></li>
-                    <!-- <li><a href="#" class="text-zinc-300 hover:text-white flex gap-2 items-center"><svg
-                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                stroke="currentColor" class="md:size-5 size-6">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M7.5 3.75H6A2.25 2.25 0 0 0 3.75 6v1.5M16.5 3.75H18A2.25 2.25 0 0 1 20.25 6v1.5m0 9V18A2.25 2.25 0 0 1 18 20.25h-1.5m-9 0H6A2.25 2.25 0 0 1 3.75 18v-1.5M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-              </svg>
-
-              <span class="hidden lg:block">Explore</span></a></li> -->
-                    <!-- <li><a href="#" class="text-zinc-300 hover:text-white flex gap-2 items-center"><svg
-                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                stroke="currentColor" class="md:size-5 size-">
-                <path stroke-linecap="round" stroke-linejoin="round"
-                  d="M4.26 10.147a60.438 60.438 0 0 0-.491 6.347A48.62 48.62 0 0 1 12 20.904a48.62 48.62 0 0 1 8.232-4.41 60.46 60.46 0 0 0-.491-6.347m-15.482 0a50.636 50.636 0 0 0-2.658-.813A59.906 59.906 0 0 1 12 3.493a59.903 59.903 0 0 1 10.399 5.84c-.896.248-1.783.52-2.658.814m-15.482 0A50.717 50.717 0 0 1 12 13.489a50.702 50.702 0 0 1 7.74-3.342M6.75 15a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Zm0 0v-3.675A55.378 55.378 0 0 1 12 8.443m-7.007 11.55A5.981 5.981 0 0 0 6.75 15.75v-1.5" />
-              </svg>
-              <span class="hidden lg:block">Jurusan</span></a></li> -->
                     <li><button
                             class="bg-zinc-300 text-zinc-800 px-3 py-1 rounded-full hover:bg-white flex items-center gap-1"><svg
                                 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -164,12 +149,14 @@
 
 
     <!-- main content -->
-    <div class="items-start gap-5 lg:mx-25 mx-5 pt-22 pb-22">
+    <div class="items-start gap-5 lg:mx-25 mx-5 pt-15 pb-22">
 
         <!-- profile -->
-        <div class="w-full py-7 flex justify-center flex-wrap md:flex-nowrap md:gap-10 gap-5 border-b-1 border-zinc-800">
-            <img class="w-50 aspect-square rounded-full ring-2 ring-zinc-800 md:flex-1" src="" alt="user img">
-            <div class="flex flex-col gap-5 items-center md:items-start md:flex-1 lg:flex-2 md:justify-start justify-center rounded-lg w-full    ">
+        <div class="w-full py-7 flex justify-center flex-wrap md:flex-nowrap md:gap-10 gap-5">
+            <img class="w-50 aspect-square rounded-full ring-2 ring-zinc-800 md:flex-1 object-cover" src=""
+                alt="user img">
+            <div
+                class="flex flex-col gap-5 items-center md:items-start md:flex-1 lg:flex-2 md:justify-start justify-center rounded-lg w-full    ">
                 <div class="text-center md:text-start">
                     <h2 class="text-2xl font-bold text-white">display name</h2>
                     <p class="text-sm text-zinc-400">username</p>
@@ -185,37 +172,234 @@
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel, porro aut qui nulla esse, non sit
                         perspiciatis voluptatibus facilis fugit quod iste labore nisi et.</p>
                 </div>
-                <button class="px-4 py-2 text-sm w-full md:w-65 text-white rounded bg-zinc-800 hover:bg-zinc-900 transition">
+                <button
+                    class="px-4 py-2 text-sm w-full md:w-65 text-white rounded bg-zinc-800 hover:bg-zinc-900 transition">
                     Edit Profile
                 </button>
             </div>
         </div>
-        <div class="flex justify-center items-center gap-10 p-5">
-            <button class="text-white hover:text-white transition flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none"
-                    viewBox="0 0 24 24" stroke-width="1" stroke="currentColor" class="size-5">
+        <div class="flex justify-center items-center gap-10 border-t-1 border-zinc-800">
+            <button onclick="showTab('projects')" id="tab-projects"
+                class="text-white hover:text-white transition flex items-center gap-2 py-5 border-t border-white"><svg
+                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
+                    stroke="currentColor" class="size-5">
                     <path stroke-linecap="round" stroke-linejoin="round"
                         d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" />
                 </svg>
                 Projects</button>
-            <button class="text-zinc-400 hover:text-white transition flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                    stroke-width="1.5" stroke="currentColor" class="size-5">
+            <button onclick="showTab('liked')" id="tab-liked"
+                class="text-white hover:text-white transition flex items-center gap-2 py-5"><svg
+                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-5">
                     <path stroke-linecap="round" stroke-linejoin="round"
                         d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z" />
                 </svg>
                 Liked</button>
-            <button class="text-zinc-400 hover:text-white transition flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                    stroke-width="1.5" stroke="currentColor" class="size-5">
+            <button onclick="showTab('saved')" id="tab-saved"
+                class="text-white hover:text-white transition flex items-center gap-2 py-5"><svg
+                    xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-5">
                     <path stroke-linecap="round" stroke-linejoin="round"
                         d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
                 </svg>
                 Saved</button>
         </div>
-        <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5  rounded-lg">
-            <div class="w-full aspect-square bg-zinc-700 rounded-lg p-5"><h5 class="text-xl text-white font-bold">Project</h5></div>
-            <div class="w-full aspect-square bg-zinc-700 rounded-lg p-5"><h5 class="text-xl text-white font-bold">Project</h5></div>
-            <div class="w-full aspect-square bg-zinc-700 rounded-lg p-5"><h5 class="text-xl text-white font-bold">Project</h5></div>
-            <div class="w-full aspect-square bg-zinc-700 rounded-lg p-5"><h5 class="text-xl text-white font-bold">Project</h5></div>
+
+        <!-- tab projects -->
+        <div class="tab-content grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5" id="projects">
+            <div class="aspect-square flex flex-col min-h-0 overflow-hidden">
+                <div class="flex-1 min-h-1/2 rounded-t-lg bg-zinc-800 text-white">
+                    <img src="https://images.unsplash.com/photo-1503023345310-bd7c1de61c7d" class="w-full h-full object-cover rounded-t-lg" alt="Thumbnail">
+                </div>
+                <div class="flex-1 flex flex-col gap-2 p-5 bg-zinc-900 rounded-b-lg">
+                    <h5 class="text-xl text-white font-bold truncate">(contoh) Nature Photography Landscape</h5>
+                    <p class="text-sm text-zinc-400">04-04-2025</p>
+                    <p class="text-sm text-zinc-400 truncate">Landscape photography of nature i did in the wild. Color
+                        grading in Adobe Lightroom.
+                        indonesia</p>
+                    <div class="flex gap-3 items-center">
+                        <p class="text-sm text-white bg-zinc-800 border border-zinc-500 p-2 w-30 rounded-lg truncate">
+                            Tags: Photography</p>
+                        <div class="flex gap-2 items-center text-white">
+                            <p>27</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z" />
+                            </svg>
+                        </div>
+                        <div class="flex gap-2 items-center text-white">
+                            <p>9</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                            </svg>
+                        </div>
+                        <div class="flex gap-2 items-center text-white">
+                            <p>7</p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z" />
+                            </svg>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="aspect-square min-h-0 flex flex-col">
+                <div class="flex-1 min-h-1/2 rounded-t-lg bg-zinc-800 text-white">
+                    <img src="" class="w-full h-full object-cover rounded-t-lg" alt="Thumbnail">
+                </div>
+                <div class="flex-1 flex flex-col gap-2 p-5 bg-zinc-900 rounded-b-lg">
+                    <h5 class="text-xl text-white font-bold truncate">Project title</h5>
+                    <p class="text-sm text-zinc-400">date</p>
+                    <p class="text-sm text-zinc-400 truncate">description</p>
+                    <div class="flex gap-3 items-center">
+                        <p class="text-sm text-white bg-zinc-800 border border-zinc-500 p-2 w-30 rounded-lg truncate">
+                            Tags: </p>
+                        <div class="flex gap-2 items-center text-white">
+                            <p></p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z" />
+                            </svg>
+                        </div>
+                        <div class="flex gap-2 items-center text-white">
+                            <p></p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                            </svg>
+                        </div>
+                        <div class="flex gap-2 items-center text-white">
+                            <p></p>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                stroke="currentColor" class="size-5">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z" />
+                            </svg>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col gap-2 p-5 bg-zinc-900 rounded-lg aspect-square">
+                <h5 class="text-xl text-white font-bold truncate">(contoh) Nature Photography Landscape</h5>
+                <p class="text-sm text-zinc-400">04-04-2025</p>
+                <p class="text-sm text-zinc-400 truncate">Landscape photography of nature i did in the wild. Color
+                    grading in Adobe Lightroom.
+                    indonesia</p>
+                <div class="flex gap-3 items-center">
+                    <p class="text-sm text-white bg-zinc-800 border border-zinc-500 p-2 w-30 rounded-lg truncate">
+                        Tags: Photography</p>
+                    <div class="flex gap-2 items-center text-white">
+                        <p>27</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z" />
+                        </svg>
+                    </div>
+                    <div class="flex gap-2 items-center text-white">
+                        <p>9</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                        </svg>
+                    </div>
+                    <div class="flex gap-2 items-center text-white">
+                        <p>7</p>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-5">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z" />
+                        </svg>
+
+                    </div>
+                </div>
+            </div>
         </div>
+
+        <!-- tab liked -->
+        <div class="tab-content hidden flex flex-col gap-5" id="liked">
+            <h5 class="text-zinc-400 text-md">
+                *Only you can see what you've liked
+            </h5>
+            <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <div class="aspect-square min-h-0 flex flex-col">
+                    <div class="flex-1 min-h-1/2 rounded-t-lg bg-zinc-800 text-white">
+                        <img src="" class="w-full h-full object-cover rounded-t-lg" alt="Thumbnail">
+                    </div>
+                    <div class="flex-1 flex flex-col gap-2 p-5 bg-zinc-900 rounded-b-lg">
+                        <h5 class="text-xl text-white font-bold truncate">Project title</h5>
+                        <p class="text-sm text-zinc-400">date</p>
+                        <p class="text-sm text-zinc-400 truncate">description</p>
+                        <div class="flex gap-3 items-center">
+                            <p class="text-sm text-white bg-zinc-800 border border-zinc-500 p-2 w-30 rounded-lg truncate">
+                                Tags: </p>
+                            <div class="flex gap-2 items-center text-white">
+                                <p></p>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" class="size-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M6.633 10.25c.806 0 1.533-.446 2.031-1.08a9.041 9.041 0 0 1 2.861-2.4c.723-.384 1.35-.956 1.653-1.715a4.498 4.498 0 0 0 .322-1.672V2.75a.75.75 0 0 1 .75-.75 2.25 2.25 0 0 1 2.25 2.25c0 1.152-.26 2.243-.723 3.218-.266.558.107 1.282.725 1.282m0 0h3.126c1.026 0 1.945.694 2.054 1.715.045.422.068.85.068 1.285a11.95 11.95 0 0 1-2.649 7.521c-.388.482-.987.729-1.605.729H13.48c-.483 0-.964-.078-1.423-.23l-3.114-1.04a4.501 4.501 0 0 0-1.423-.23H5.904m10.598-9.75H14.25M5.904 18.5c.083.205.173.405.27.602.197.4-.078.898-.523.898h-.908c-.889 0-1.713-.518-1.972-1.368a12 12 0 0 1-.521-3.507c0-1.553.295-3.036.831-4.398C3.387 9.953 4.167 9.5 5 9.5h1.053c.472 0 .745.556.5.96a8.958 8.958 0 0 0-1.302 4.665c0 1.194.232 2.333.654 3.375Z" />
+                                </svg>
+                            </div>
+                            <div class="flex gap-2 items-center text-white">
+                                <p></p>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" class="size-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M17.593 3.322c1.1.128 1.907 1.077 1.907 2.185V21L12 17.25 4.5 21V5.507c0-1.108.806-2.057 1.907-2.185a48.507 48.507 0 0 1 11.186 0Z" />
+                                </svg>
+                            </div>
+                            <div class="flex gap-2 items-center text-white">
+                                <p></p>
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                                    stroke="currentColor" class="size-5">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M7.217 10.907a2.25 2.25 0 1 0 0 2.186m0-2.186c.18.324.283.696.283 1.093s-.103.77-.283 1.093m0-2.186 9.566-5.314m-9.566 7.5 9.566 5.314m0 0a2.25 2.25 0 1 0 3.935 2.186 2.25 2.25 0 0 0-3.935-2.186Zm0-12.814a2.25 2.25 0 1 0 3.933-2.185 2.25 2.25 0 0 0-3.933 2.185Z" />
+                                </svg>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- tab saved -->
+        <div class="tab-content hidden flex flex-col gap-5" id="saved">
+            <h5 class="text-zinc-400 text-md">
+                *Only you can see what you've saved
+            </h5>
+            <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                
+            </div>
+        </div>
+
+        <script>
+            function showTab(tabId) {
+                document.querySelectorAll('.tab-content').forEach(div => {
+                    div.classList.add('hidden');
+                    div.classList.remove('block');
+                });
+
+                const selectedTab = document.getElementById(tabId);
+                selectedTab.classList.remove('hidden');
+                selectedTab.classList.add('block');
+
+                document.querySelectorAll('[id^="tab-"]').forEach(btn => btn.classList.remove('border-t', 'border-white'));
+                document.getElementById(`tab-${tabId}`).classList.add('border-t', 'border-white');
+            }
+        </script>
+
     </div>
 
 
